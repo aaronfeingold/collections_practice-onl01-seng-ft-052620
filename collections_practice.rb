@@ -34,6 +34,7 @@ def add_s (array)
   array.map.with_index(0) { |word| 
   if word != "feet"
     word + "s"
-  end 
+  else
+    word 
   } 
 end 
