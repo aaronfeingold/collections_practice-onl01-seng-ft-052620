@@ -35,7 +35,7 @@ def add_s (array)
   if array[2]
    name 
   else
-    name.insert(-1,"s"
+    name.insert(-1, "s")
   end
   }
 end 
