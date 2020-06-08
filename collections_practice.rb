@@ -19,13 +19,5 @@ def reverse_array (array)
 end 
 
 def kesha_maker (array)
-  new_array = []
-  
-  while index < array.length 
-    array.each { |name|
-      name.insert 2, "$"}
-  end
-   
-  
-  new_array
+  array.each { |name| name.insert 2, "$"}
 end 
