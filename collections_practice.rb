@@ -32,7 +32,7 @@ end
 
 def add_s (array)
   array.map.with_index(0) { |word| 
-  if array[1] = "feet"
+  if word =/=
     word
   else
     word + "s"
