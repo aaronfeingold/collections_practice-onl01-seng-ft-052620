@@ -31,6 +31,6 @@ def sum_array (array)
 end 
 
 def add_s (array)
-  array.drop(1).map { |name| name + "s" 
+  array.map { |name| name + "s" 
   }
 end 
