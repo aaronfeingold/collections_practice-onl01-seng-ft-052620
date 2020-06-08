@@ -33,9 +33,9 @@ end
 def add_s (array)
   array.map { |name| 
     if array[1]
-      #do nothing 
+      array[1] 
     else
-    name + "s"
+      name + "s"
     end 
   }
 end 
