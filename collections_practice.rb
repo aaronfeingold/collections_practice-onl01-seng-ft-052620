@@ -32,7 +32,7 @@ end
 
 def add_s (array)
   array.map.with_index(0) { |word| 
-  if array[1]
+  while array[1]
     word
   else
     word + "s"
