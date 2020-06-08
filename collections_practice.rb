@@ -31,11 +31,6 @@ def sum_array (array)
 end 
 
 def add_s (array)
-  array.map.with_index { |name| 
-    if array[1]
-      name
-    else 
-      name + "s"
-    end 
+  array.map { |name| name + "s" 
   }
 end 
