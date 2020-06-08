@@ -19,5 +19,5 @@ def reverse_array (array)
 end 
 
 def kesha_maker (array)
-  array.each { |name| name.gsub! 3, "$"}
+  array.each { |name| name.gsub 3, "$"}
 end 
