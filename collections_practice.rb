@@ -31,7 +31,7 @@ def sum_array (array)
 end 
 
 def add_s (array)
-  array.map { |name| 
+  array.map_with_index { |name| 
     if array[1]
       name
     else 
