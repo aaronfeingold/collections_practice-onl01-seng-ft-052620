@@ -31,5 +31,5 @@ def sum_array (array)
 end 
 
 def add_s (array)
-  array.instance_eval { |a| [a.first] + a.drop(1).map { |e| e + 1 } }
+ 
 end 
